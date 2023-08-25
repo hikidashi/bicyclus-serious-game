@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "main",
+  "name": "game",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {

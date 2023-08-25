@@ -13,12 +13,13 @@
     {"name":"Shaders","order":6,"path":"folders/Shaders.yy",},
     {"name":"Sounds","order":3,"path":"folders/Sounds.yy",},
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
+    {"name":"Backgrounds","order":1,"path":"folders/Sprites/Backgrounds.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
-    {"name":"scenes","order":1,"path":"folders/Sprites/scenes.yy",},
+    {"name":"User Interface","order":3,"path":"folders/Sprites/User Interface.yy",},
   ],
   "ResourceOrderSettings": [
-    {"name":"spr_office","order":1,"path":"sprites/spr_office/spr_office.yy",},
-    {"name":"main","order":1,"path":"scripts/main/main.yy",},
+    {"name":"spr_bg_office","order":1,"path":"sprites/spr_bg_office/spr_bg_office.yy",},
+    {"name":"game","order":1,"path":"scripts/game/game.yy",},
   ],
 }
