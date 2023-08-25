@@ -14,9 +14,9 @@
     {"name":"Sounds","order":3,"path":"folders/Sounds.yy",},
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
     {"name":"Backgrounds","order":1,"path":"folders/Sprites/Backgrounds.yy",},
+    {"name":"User Interface","order":3,"path":"folders/Sprites/User Interface.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
-    {"name":"User Interface","order":3,"path":"folders/Sprites/User Interface.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_bg_office","order":1,"path":"sprites/spr_bg_office/spr_bg_office.yy",},
