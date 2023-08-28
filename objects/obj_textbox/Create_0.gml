@@ -1,4 +1,4 @@
-texto = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas aliquet lectus sed quam porta, quis pulvinar nibh commodo. Aliquam eget molestie erat. Curabitur posuere magna eu nunc auctor aliquet. Integer porta vitae diam at dignissim. Donec elementum risus libero, sed mollis eros condimentum sed. Curabitur magna quam, sodales sed volutpat sed, semper nec tortor. Integer luctus eu arcu non fringilla. Vivamus tellus lacus, finibus nec aliquam eu, mollis nec odio. Nunc tempor erat nisi, rutrum feugiat quam vulputate quis. Curabitur quis est id dolor dapibus vehicula in eget turpis. Fusce in blandit est. Mauris eleifend imperdiet odio. Mauris eget magna in nulla volutpat malesuada. Maecenas volutpat metus in metus placerat, ut luctus quam maximus."
+text = "";
 
 line_height = 48;
 line_width = 1600;
