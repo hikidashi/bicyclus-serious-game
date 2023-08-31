@@ -5,5 +5,5 @@ function background(_spr_id) {
 
 function dialogue(_text) {
 	textbox = instance_create_depth(960, 830, -10000, obj_textbox);
-	textbox.text = _text;
+	textbox.texto = _text;
 }
