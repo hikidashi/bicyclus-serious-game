@@ -7,7 +7,7 @@ if (mouse_check_button_released(mb_left)) {
 		index++;
 		letra = 1;
 	} else {
-		CoroutineBroadcast("resume");
+		global.coroutineRootStruct.Resume();
 		instance_destroy(self);
 	}
 }
