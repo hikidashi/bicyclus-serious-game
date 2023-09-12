@@ -8,6 +8,6 @@ function background(_spr_id) {
 }
 
 function dialogue(_text) {
-	textbox = instance_create_depth(960, 930, -10000, obj_textbox);
+	textbox = instance_create_depth(35, 830, -10000, obj_textbox);
 	textbox.texto = _text;
 }

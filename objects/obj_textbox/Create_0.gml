@@ -8,4 +8,4 @@ txt_len = -1;
 arr_len = -1;
 
 line_height = 48;
-line_width = 1600;
+line_width = 1850;
