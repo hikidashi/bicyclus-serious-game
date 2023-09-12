@@ -7,4 +7,3 @@ if (!instance_exists(obj_textbox)) {
 		image_index = 0;
 	}
 }
- 
