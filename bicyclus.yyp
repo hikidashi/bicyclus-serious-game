@@ -65,6 +65,7 @@
     {"id":{"name":"__CoroutineIfClass","path":"scripts/__CoroutineIfClass/__CoroutineIfClass.yy",},},
     {"id":{"name":"spr_bg_bedroom","path":"sprites/spr_bg_bedroom/spr_bg_bedroom.yy",},},
     {"id":{"name":"oCoroutineManager","path":"objects/oCoroutineManager/oCoroutineManager.yy",},},
+    {"id":{"name":"spr_bg_bedroom_noon","path":"sprites/spr_bg_bedroom_noon/spr_bg_bedroom_noon.yy",},},
     {"id":{"name":"spr_dresser","path":"sprites/spr_dresser/spr_dresser.yy",},},
     {"id":{"name":"__CoroutineAwaitFirstClass","path":"scripts/__CoroutineAwaitFirstClass/__CoroutineAwaitFirstClass.yy",},},
     {"id":{"name":"config","path":"scripts/config/config.yy",},},
