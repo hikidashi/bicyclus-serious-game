@@ -41,6 +41,7 @@
     "IDEVersion": "2023.6.0.92",
   },
   "resources": [
+    {"id":{"name":"obj_computer","path":"objects/obj_computer/obj_computer.yy",},},
     {"id":{"name":"obj_bedroom","path":"objects/obj_bedroom/obj_bedroom.yy",},},
     {"id":{"name":"rm_bedroom","path":"rooms/rm_bedroom/rm_bedroom.yy",},},
     {"id":{"name":"CoroutineEventHook","path":"scripts/CoroutineEventHook/CoroutineEventHook.yy",},},
@@ -69,6 +70,7 @@
     {"id":{"name":"config","path":"scripts/config/config.yy",},},
     {"id":{"name":"__CoroutineAwaitAsyncClass","path":"scripts/__CoroutineAwaitAsyncClass/__CoroutineAwaitAsyncClass.yy",},},
     {"id":{"name":"spr_bed","path":"sprites/spr_bed/spr_bed.yy",},},
+    {"id":{"name":"spr_computer","path":"sprites/spr_computer/spr_computer.yy",},},
     {"id":{"name":"obj_dresser","path":"objects/obj_dresser/obj_dresser.yy",},},
     {"id":{"name":"__CoroutinesSystem","path":"scripts/__CoroutinesSystem/__CoroutinesSystem.yy",},},
     {"id":{"name":"__CoroutineRootClass","path":"scripts/__CoroutineRootClass/__CoroutineRootClass.yy",},},

@@ -24,6 +24,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"obj_computer","order":4,"path":"objects/obj_computer/obj_computer.yy",},
     {"name":"obj_bedroom","order":3,"path":"objects/obj_bedroom/obj_bedroom.yy",},
     {"name":"rm_bedroom","order":1,"path":"rooms/rm_bedroom/rm_bedroom.yy",},
     {"name":"CoroutineEventHook","order":4,"path":"scripts/CoroutineEventHook/CoroutineEventHook.yy",},
@@ -45,6 +46,7 @@
     {"name":"__CoroutineAwaitFirstClass","order":4,"path":"scripts/__CoroutineAwaitFirstClass/__CoroutineAwaitFirstClass.yy",},
     {"name":"__CoroutineAwaitAsyncClass","order":1,"path":"scripts/__CoroutineAwaitAsyncClass/__CoroutineAwaitAsyncClass.yy",},
     {"name":"spr_bed","order":1,"path":"sprites/spr_bed/spr_bed.yy",},
+    {"name":"spr_computer","order":3,"path":"sprites/spr_computer/spr_computer.yy",},
     {"name":"__CoroutinesSystem","order":14,"path":"scripts/__CoroutinesSystem/__CoroutinesSystem.yy",},
     {"name":"__CoroutineRootClass","order":13,"path":"scripts/__CoroutineRootClass/__CoroutineRootClass.yy",},
     {"name":"spr_desk","order":2,"path":"sprites/spr_desk/spr_desk.yy",},
