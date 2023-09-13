@@ -19,6 +19,7 @@
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
     {"name":"Backgrounds","order":1,"path":"folders/Sprites/Backgrounds.yy",},
     {"name":"Bedroom","order":4,"path":"folders/Sprites/Bedroom.yy",},
+    {"name":"Characters","order":5,"path":"folders/Sprites/Characters.yy",},
     {"name":"User Interface","order":3,"path":"folders/Sprites/User Interface.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
@@ -34,6 +35,7 @@
     {"name":"__CoroutineEscapeClass","order":8,"path":"scripts/__CoroutineEscapeClass/__CoroutineEscapeClass.yy",},
     {"name":"__CoroutineMisc","order":11,"path":"scripts/__CoroutineMisc/__CoroutineMisc.yy",},
     {"name":"__CoroutineRepeatClass","order":12,"path":"scripts/__CoroutineRepeatClass/__CoroutineRepeatClass.yy",},
+    {"name":"spr_guy","order":1,"path":"sprites/spr_guy/spr_guy.yy",},
     {"name":"__CoroutineAwaitClass","order":3,"path":"scripts/__CoroutineAwaitClass/__CoroutineAwaitClass.yy",},
     {"name":"__CoroutineDelayClass","order":7,"path":"scripts/__CoroutineDelayClass/__CoroutineDelayClass.yy",},
     {"name":"CoroutineBroadcast","order":3,"path":"scripts/CoroutineBroadcast/CoroutineBroadcast.yy",},
@@ -53,5 +55,6 @@
     {"name":"spr_desk","order":2,"path":"sprites/spr_desk/spr_desk.yy",},
     {"name":"__CoroutineWhileClass","order":15,"path":"scripts/__CoroutineWhileClass/__CoroutineWhileClass.yy",},
     {"name":"IsCoroutine","order":5,"path":"scripts/IsCoroutine/IsCoroutine.yy",},
+    {"name":"obj_char","order":2,"path":"objects/obj_char/obj_char.yy",},
   ],
 }
