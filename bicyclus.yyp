@@ -60,6 +60,7 @@
     {"id":{"name":"__CoroutineDelayClass","path":"scripts/__CoroutineDelayClass/__CoroutineDelayClass.yy",},},
     {"id":{"name":"CoroutineBroadcast","path":"scripts/CoroutineBroadcast/CoroutineBroadcast.yy",},},
     {"id":{"name":"game","path":"scripts/game/game.yy",},},
+    {"id":{"name":"desk","path":"scripts/desk/desk.yy",},},
     {"id":{"name":"obj_bed","path":"objects/obj_bed/obj_bed.yy",},},
     {"id":{"name":"obj_desk","path":"objects/obj_desk/obj_desk.yy",},},
     {"id":{"name":"__CoroutineForEachClass","path":"scripts/__CoroutineForEachClass/__CoroutineForEachClass.yy",},},
