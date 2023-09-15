@@ -43,6 +43,7 @@
   },
   "resources": [
     {"id":{"name":"obj_computer","path":"objects/obj_computer/obj_computer.yy",},},
+    {"id":{"name":"obj_computer_ctrl","path":"objects/obj_computer_ctrl/obj_computer_ctrl.yy",},},
     {"id":{"name":"obj_bedroom","path":"objects/obj_bedroom/obj_bedroom.yy",},},
     {"id":{"name":"rm_bedroom","path":"rooms/rm_bedroom/rm_bedroom.yy",},},
     {"id":{"name":"CoroutineEventHook","path":"scripts/CoroutineEventHook/CoroutineEventHook.yy",},},
@@ -78,11 +79,14 @@
     {"id":{"name":"__CoroutinesSystem","path":"scripts/__CoroutinesSystem/__CoroutinesSystem.yy",},},
     {"id":{"name":"__CoroutineRootClass","path":"scripts/__CoroutineRootClass/__CoroutineRootClass.yy",},},
     {"id":{"name":"spr_desk","path":"sprites/spr_desk/spr_desk.yy",},},
+    {"id":{"name":"spr_desk_screen","path":"sprites/spr_desk_screen/spr_desk_screen.yy",},},
     {"id":{"name":"__CoroutineAwaitAllClass","path":"scripts/__CoroutineAwaitAllClass/__CoroutineAwaitAllClass.yy",},},
     {"id":{"name":"__CoroutineWhileClass","path":"scripts/__CoroutineWhileClass/__CoroutineWhileClass.yy",},},
     {"id":{"name":"IsCoroutine","path":"scripts/IsCoroutine/IsCoroutine.yy",},},
     {"id":{"name":"obj_char","path":"objects/obj_char/obj_char.yy",},},
     {"id":{"name":"spr_lady","path":"sprites/spr_lady/spr_lady.yy",},},
+    {"id":{"name":"spr_leave","path":"sprites/spr_leave/spr_leave.yy",},},
+    {"id":{"name":"spr_icons","path":"sprites/spr_icons/spr_icons.yy",},},
     {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
   ],
   "RoomOrderNodes": [
