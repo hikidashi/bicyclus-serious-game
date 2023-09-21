@@ -12,4 +12,7 @@ if (letra <= txt_len) {
 	letra += 0.5;
 }
 
+if (name != noone) {
+	draw_text(x, y - 70, name);
+}
 draw_text_ext(x, y, frase, line_height, line_width);

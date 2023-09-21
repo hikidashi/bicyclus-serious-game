@@ -34,6 +34,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"User Interface","folderPath":"folders/Sprites/User Interface.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Reception","folderPath":"folders/Sprites/Reception.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
@@ -60,9 +61,11 @@
     {"id":{"name":"__CoroutineDelayClass","path":"scripts/__CoroutineDelayClass/__CoroutineDelayClass.yy",},},
     {"id":{"name":"CoroutineBroadcast","path":"scripts/CoroutineBroadcast/CoroutineBroadcast.yy",},},
     {"id":{"name":"game","path":"scripts/game/game.yy",},},
+    {"id":{"name":"spr_bg_reception","path":"sprites/spr_bg_reception/spr_bg_reception.yy",},},
     {"id":{"name":"desk","path":"scripts/desk/desk.yy",},},
     {"id":{"name":"obj_bed","path":"objects/obj_bed/obj_bed.yy",},},
     {"id":{"name":"obj_desk","path":"objects/obj_desk/obj_desk.yy",},},
+    {"id":{"name":"rm_reception","path":"rooms/rm_reception/rm_reception.yy",},},
     {"id":{"name":"__CoroutineForEachClass","path":"scripts/__CoroutineForEachClass/__CoroutineForEachClass.yy",},},
     {"id":{"name":"obj_textbox","path":"objects/obj_textbox/obj_textbox.yy",},},
     {"id":{"name":"__CoroutineContinueClass","path":"scripts/__CoroutineContinueClass/__CoroutineContinueClass.yy",},},
@@ -93,6 +96,7 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
     {"roomId":{"name":"rm_bedroom","path":"rooms/rm_bedroom/rm_bedroom.yy",},},
+    {"roomId":{"name":"rm_reception","path":"rooms/rm_reception/rm_reception.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},

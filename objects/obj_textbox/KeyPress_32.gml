@@ -1,4 +1,4 @@
-if (mouse_check_button_pressed(mb_left)) {
+//if (mouse_check_button_released(mb_left)) {
 	arr_len = array_length(texto) - 1;
 	if (letra < txt_len) {
 		letra = txt_len;
@@ -9,4 +9,4 @@ if (mouse_check_button_pressed(mb_left)) {
 	} else {
 		instance_destroy(self);
 	}
-}
+//}

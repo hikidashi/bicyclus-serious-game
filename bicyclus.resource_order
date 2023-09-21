@@ -23,6 +23,7 @@
     {"name":"User Interface","order":3,"path":"folders/Sprites/User Interface.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"Reception","order":6,"path":"folders/Sprites/Reception.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_computer","order":4,"path":"objects/obj_computer/obj_computer.yy",},
@@ -42,6 +43,7 @@
     {"name":"game","order":1,"path":"scripts/game/game.yy",},
     {"name":"obj_bed","order":1,"path":"objects/obj_bed/obj_bed.yy",},
     {"name":"obj_desk","order":2,"path":"objects/obj_desk/obj_desk.yy",},
+    {"name":"rm_reception","order":2,"path":"rooms/rm_reception/rm_reception.yy",},
     {"name":"__CoroutineForEachClass","order":9,"path":"scripts/__CoroutineForEachClass/__CoroutineForEachClass.yy",},
     {"name":"__CoroutineContinueClass","order":6,"path":"scripts/__CoroutineContinueClass/__CoroutineContinueClass.yy",},
     {"name":"__CoroutineIfClass","order":10,"path":"scripts/__CoroutineIfClass/__CoroutineIfClass.yy",},
