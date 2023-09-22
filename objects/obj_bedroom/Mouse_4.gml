@@ -1,3 +1,4 @@
+/*
 if (!instance_exists(obj_textbox)) {
 	dialogue([
 		"Texto 5",

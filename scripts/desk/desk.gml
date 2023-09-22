@@ -8,7 +8,7 @@ enum win
 
 function create_window(w,h,d,color,type)
 {
-	desktop = instance_create_depth(0,0,d,obj_computer_ctrl);
+	desktop = instance_create_depth(448,125,d,obj_computer_ctrl);
 	desktop.w = w;
 	desktop.h = h;
 	desktop._x = 1920/2 - w/2;
@@ -18,6 +18,7 @@ function create_window(w,h,d,color,type)
 	desktop.type = type;
 	return desktop;
 }
+
 function app(_title,_spr,_xx,_yy,_color,_type) constructor
 {
 	title = _title;	

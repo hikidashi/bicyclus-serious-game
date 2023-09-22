@@ -1,7 +1,7 @@
 function game()
 {
 
-CO_PARAMS.lady = character("Lady", spr_lady);
+CO_PARAMS.lady = character("Fulana", spr_lady);
 //CO_PARAMS.guy = character("Guy", spr_guy);
 
 global.coroutineRootStruct = CO_BEGIN
@@ -23,6 +23,8 @@ global.coroutineRootStruct = CO_BEGIN
 	], lady);
 	PAUSE THEN
 	
+	AWAIT_BROADCAST "computador" THEN
+	
 	dialogue([
 		"OK, vamos lá! A caixa de email está por aqui...."
 	], lady);
@@ -40,6 +42,30 @@ global.coroutineRootStruct = CO_BEGIN
 		"EU FUI APROVADA NO PROCESSO SELETIVO!!!"
 	], lady);
 	PAUSE THEN
+	
+	AWAIT_BROADCAST "fechar computador" THEN
+	
+	dialogue([
+		"Meu Deus, OK!! Preciso me organizar para passar na empresa o quanto antes para conhecer o ambiente e começar meu treinamento!",
+		"Pra isso tenho que me organizar, pegar o que os documentos pedem, e tudo mais!"
+	], lady);
+	PAUSE THEN
+	
+	dialogue([
+		"~rraawrwrnhahha~"
+	], noone);
+	PAUSE THEN
+	
+	dialogue([
+		"Eita! Fiquei tão feliz em ter sido aceitada que me esqueci que recém acordei e ainda não comi..."
+	], lady);
+	PAUSE THEN
+	
+	dialogue([
+		"Fulana está tão entusiasmada que pode acabar esquecendo de levar ou fazer algo importante antes comparecer na Fábrica Von Drais",
+		"Ela precisa se alimentar, pegar documentos, e acima de tudo, arrumar-se pra ocasião.",
+		"Para tanto ela deve visitar os objetos pelo quarto e fazer o que for necessário"
+	], lady)
 	
 	scene(rm_reception);
 	
