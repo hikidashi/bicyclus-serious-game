@@ -2,7 +2,6 @@ function game()
 {
 
 CO_PARAMS.lady = character("Fulana", spr_lady);
-//CO_PARAMS.guy = character("Guy", spr_guy);
 
 global.coroutineRootStruct = CO_BEGIN
 	
@@ -23,8 +22,6 @@ global.coroutineRootStruct = CO_BEGIN
 	], lady);
 	PAUSE THEN
 	
-	AWAIT_BROADCAST "computador" THEN
-	
 	dialogue([
 		"OK, vamos lá! A caixa de email está por aqui...."
 	], lady);
@@ -42,8 +39,6 @@ global.coroutineRootStruct = CO_BEGIN
 		"EU FUI APROVADA NO PROCESSO SELETIVO!!!"
 	], lady);
 	PAUSE THEN
-	
-	AWAIT_BROADCAST "fechar computador" THEN
 	
 	dialogue([
 		"Meu Deus, OK!! Preciso me organizar para passar na empresa o quanto antes para conhecer o ambiente e começar meu treinamento!",

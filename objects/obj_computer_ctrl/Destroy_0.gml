@@ -1,4 +1,0 @@
-
-
-
-CoroutineBroadcast("fechar computador")

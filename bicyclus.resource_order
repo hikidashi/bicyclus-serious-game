@@ -47,8 +47,6 @@
     {"name":"__CoroutineForEachClass","order":9,"path":"scripts/__CoroutineForEachClass/__CoroutineForEachClass.yy",},
     {"name":"__CoroutineContinueClass","order":6,"path":"scripts/__CoroutineContinueClass/__CoroutineContinueClass.yy",},
     {"name":"__CoroutineIfClass","order":10,"path":"scripts/__CoroutineIfClass/__CoroutineIfClass.yy",},
-    {"name":"spr_bg_bedroom_noon","order":1,"path":"sprites/spr_bg_bedroom_noon/spr_bg_bedroom_noon.yy",},
-    {"name":"spr_desk_interface","order":1,"path":"sprites/spr_desk_interface/spr_desk_interface.yy",},
     {"name":"__CoroutineAwaitFirstClass","order":4,"path":"scripts/__CoroutineAwaitFirstClass/__CoroutineAwaitFirstClass.yy",},
     {"name":"__CoroutineAwaitAsyncClass","order":1,"path":"scripts/__CoroutineAwaitAsyncClass/__CoroutineAwaitAsyncClass.yy",},
     {"name":"spr_bed","order":1,"path":"sprites/spr_bed/spr_bed.yy",},
