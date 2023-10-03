@@ -10,57 +10,38 @@ global.coroutineRootStruct = CO_BEGIN
 	
 	dialogue([
 		"É um novo dia na cidade de Oikos! Uma nova semana se inicia!",
-		"E com ela vêm muitas responsabilidades, pois hoje é um importante dia para Fulana, que aguarda ansiosamente o retorno da vaga de emprego que adimitiu há algumas semanas!",
-		"O dia de Fulana já começa logo cedo, com ela organizando tudo o que precisa pra sair, ainda mais neste dia."
+		"E com ela surgem muitas responsabilidades, pois hoje é um importante dia para o Protagonista, que aguarda ansiosamente o retorno sobre uma vaga de emprego que admitiu há algumas semanas!",
+		"O seu dia começa logo cedo, com ele organizando tudo o que precisa para sair."
 	], noone);
 	PAUSE THEN
 	
 	dialogue([
-		"Meu Deus, eu acordei tão contente hoje! Sinto que hoje será um dia maravilho e que vai dar tudo certo!",
-		"Mas OK, antes de mais nada, preciso me organizar, a começar por checar essa vaga de emprego que eu to tãooo ansiosa por saber como fui.",
-		"Para isso eu tenho que abrir meu email no computador..."
+		"Acordei tão contente hoje! Tô com expectativa lá no alto!",
+		"Espero realmente que dê tudo certo. A qualquer momento eles podem me enviar um e-mail com a resposta do processo seletivo!",
+		"Tenho que checar meu computador pra ver se já chegou algo."
 	], lady);
 	PAUSE THEN
 	
 	dialogue([
-		"OK, vamos lá! A caixa de email está por aqui...."
+		"Caramba! Eles já me enviaram a resposta da vaga! Vamos ver o que está escrito…"
 	], lady);
 	PAUSE THEN
 	
 	dialogue([
-		"A-HA! Encontrei!",
-		"Ai ai ai! O email que eles me mandaram está aqui...",
-		"Vamos ver o que está escrito... por favor... que eu tenha sido aprovada...!"
-	], lady);
-	PAUSE THEN
-	
-	dialogue([
-		"AAAA EU CONSEGUI! EU CONSEGUI!!",
-		"EU FUI APROVADA NO PROCESSO SELETIVO!!!"
-	], lady);
-	PAUSE THEN
-	
-	dialogue([
-		"Meu Deus, OK!! Preciso me organizar para passar na empresa o quanto antes para conhecer o ambiente e começar meu treinamento!",
-		"Pra isso tenho que me organizar, pegar o que os documentos pedem, e tudo mais!"
-	], lady);
-	PAUSE THEN
-	
-	dialogue([
-		"~rraawrwrnhahha~"
+		"Olá Protagonista? Tudo bem?",
+		"Parabéns! Você foi aprovado no processo seletivo para participar do programa de trainee da Fábrica de Bicicletas Von Drais, seja muito bem-vindo!",
+		"Seu treinamento iniciará na próxima segunda-feira, às 8 horas. Neste dia, compareça na empresa munido de seus documentos para que possamos apresentar os setores da fábrica onde você atuará.",
+		"At. te, Equipe de Seleção Von Drais."
 	], noone);
 	PAUSE THEN
 	
 	dialogue([
-		"Eita! Fiquei tão feliz em ter sido aceitada que me esqueci que recém acordei e ainda não comi..."
+		"NÃO ACREDITO, EU CONSEGUI! Eu consegui a vaga!",
+		"Agora eu tenho que providenciar todas as coisas para amanhã ser um dia perfeito, a começar pelos documentos!"
 	], lady);
 	PAUSE THEN
 	
-	dialogue([
-		"Fulana está tão entusiasmada que pode acabar esquecendo de levar ou fazer algo importante antes comparecer na Fábrica Von Drais",
-		"Ela precisa se alimentar, pegar documentos, e acima de tudo, arrumar-se pra ocasião.",
-		"Para tanto ela deve visitar os objetos pelo quarto e fazer o que for necessário"
-	], lady)
+	PAUSE THEN
 	
 	scene(rm_reception);
 	

@@ -1,11 +1,3 @@
-function character(_name, _sprite) {
-	return {
-		name: _name,
-		sprite: _sprite,
-		index: 0
-	}
-}
-
 function scene(_room_id) {
 	room_goto(_room_id);	
 }
@@ -13,6 +5,14 @@ function scene(_room_id) {
 function background(_spr_id) {
 	var _back_id = layer_background_get_id(global.lay_id);
 	layer_background_change(_back_id, _spr_id);
+}
+
+function character(_name, _sprite) {
+	return {
+		name: _name,
+		sprite: _sprite,
+		index: 0
+	}
 }
 
 function dialogue(_text, _char) {
