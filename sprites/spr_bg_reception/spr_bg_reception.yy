@@ -33,8 +33,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Reception",
-    "path": "folders/Sprites/Reception.yy",
+    "name": "Backgrounds",
+    "path": "folders/Sprites/Backgrounds.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
