@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "ScriptTextos",
+  "name": "ScriptDialogues",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {

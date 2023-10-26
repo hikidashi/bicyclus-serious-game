@@ -1,3 +1,3 @@
-if (instance_exists(obj_dialogo)) {
-	global.dialogo = true;	
+if instance_exists(obj_dialogue) {
+	global.dialogue = true;	
 }

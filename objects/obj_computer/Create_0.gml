@@ -1,3 +1,3 @@
 event_inherited()
 
-nome = "Primeiro texto";
+name = "Computer";

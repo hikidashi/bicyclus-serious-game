@@ -1,1 +1,1 @@
-global.dialogo = false;
+global.dialogue = false;

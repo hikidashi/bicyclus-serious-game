@@ -15,7 +15,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
-    {"name":"obj_dialogo","order":3,"path":"objects/obj_dialogo/obj_dialogo.yy",},
+    {"name":"obj_dialogue","order":3,"path":"objects/obj_dialogue/obj_dialogue.yy",},
     {"name":"spr_sebastian_1","order":1,"path":"sprites/spr_sebastian_1/spr_sebastian_1.yy",},
     {"name":"obj_computer","order":4,"path":"objects/obj_computer/obj_computer.yy",},
     {"name":"spr_abigail_6","order":5,"path":"sprites/spr_abigail_6/spr_abigail_6.yy",},
@@ -24,7 +24,7 @@
     {"name":"spr_abigail_8","order":7,"path":"sprites/spr_abigail_8/spr_abigail_8.yy",},
     {"name":"spr_abigail_5","order":4,"path":"sprites/spr_abigail_5/spr_abigail_5.yy",},
     {"name":"spr_abigail_4","order":3,"path":"sprites/spr_abigail_4/spr_abigail_4.yy",},
-    {"name":"obj_par","order":2,"path":"objects/obj_par/obj_par.yy",},
+    {"name":"obj_parent","order":2,"path":"objects/obj_parent/obj_parent.yy",},
     {"name":"spr_bg_reception","order":1,"path":"sprites/spr_bg_reception/spr_bg_reception.yy",},
     {"name":"spr_sebastian_5","order":5,"path":"sprites/spr_sebastian_5/spr_sebastian_5.yy",},
     {"name":"spr_sebastian_4","order":4,"path":"sprites/spr_sebastian_4/spr_sebastian_4.yy",},

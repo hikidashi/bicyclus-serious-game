@@ -1,11 +1,11 @@
-function src_textos(){
-	switch obj_nome {
-		case "Primeiro texto":
+function src_dialogues() {
+	switch obj_name {
+		case "Computer":
 			ds_grid_add_text("Primeiro texto", spr_sebastian_1, 0, "Sebastian");
 			ds_grid_add_text("Segundo texto", spr_abigail_1, 1, "Abigail");
 			ds_grid_add_text("Terceiro texto", spr_sebastian_5, 0, "Sebastian");
-			ds_grid_add_text("Quarto texto", spr_abigail_2, 1, "Abigail");
-		break;
+			ds_grid_add_text("Quarto texto", spr_abigail_2, -1, noone);
+			break;
 	}
 }
 
@@ -18,12 +18,12 @@ function ds_grid_add_row(){
 }
 
 function ds_grid_add_text(){
-	///@arg texto
-	///@arg retrato
-	///@arg lado
-	///@arg nome
+	///@arg text
+	///@arg imge
+	///@arg side
+	///@arg name
  
-	var _grid = texto_grid;
+	var _grid = dialogues;
 	var _y = ds_grid_add_row(_grid);
  
 	_grid[# 0, _y] = argument[0];
