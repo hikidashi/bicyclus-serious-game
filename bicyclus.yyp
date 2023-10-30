@@ -38,7 +38,6 @@
     {"id":{"name":"obj_computer","path":"objects/obj_computer/obj_computer.yy",},},
     {"id":{"name":"spr_abigail_6","path":"sprites/spr_abigail_6/spr_abigail_6.yy",},},
     {"id":{"name":"spr_abigail_3","path":"sprites/spr_abigail_3/spr_abigail_3.yy",},},
-    {"id":{"name":"snd_dialogue","path":"sounds/snd_dialogue/snd_dialogue.yy",},},
     {"id":{"name":"rm_bedroom","path":"rooms/rm_bedroom/rm_bedroom.yy",},},
     {"id":{"name":"spr_abigail_8","path":"sprites/spr_abigail_8/spr_abigail_8.yy",},},
     {"id":{"name":"spr_abigail_5","path":"sprites/spr_abigail_5/spr_abigail_5.yy",},},
