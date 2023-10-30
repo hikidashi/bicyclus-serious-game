@@ -53,7 +53,6 @@ if init {
 		if global.keypress {
 			var _dialogue = instance_create_layer(x, y, "Dialogue", obj_dialogue);
 			_dialogue.obj_name = op_ans[op_sel];
-			
 			instance_destroy();
 		}
 	}
