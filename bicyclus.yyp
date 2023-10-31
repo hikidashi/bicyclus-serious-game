@@ -58,6 +58,7 @@
     {"id":{"name":"spr_abigail_2","path":"sprites/spr_abigail_2/spr_abigail_2.yy",},},
     {"id":{"name":"spr_sebastian_2","path":"sprites/spr_sebastian_2/spr_sebastian_2.yy",},},
     {"id":{"name":"rm_reception","path":"rooms/rm_reception/rm_reception.yy",},},
+    {"id":{"name":"snd_dialogue","path":"sounds/snd_dialogue/snd_dialogue.yy",},},
     {"id":{"name":"spr_bg_bedroom","path":"sprites/spr_bg_bedroom/spr_bg_bedroom.yy",},},
     {"id":{"name":"spr_abigail_7","path":"sprites/spr_abigail_7/spr_abigail_7.yy",},},
     {"id":{"name":"spr_dresser","path":"sprites/spr_dresser/spr_dresser.yy",},},
