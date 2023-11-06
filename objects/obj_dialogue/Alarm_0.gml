@@ -3,6 +3,6 @@ if init {
 		var _snd = choose(snd_dialogue);
 		audio_play_sound(_snd, 1, 0);
 		char++;
-		alarm[0] = 3;
+		alarm[0] = 5;
 	}
 }
