@@ -35,7 +35,7 @@ if init {
 		var _opy = _yy - 48;
 		var _op_sep = 48;
 		var _op_borderx = 8;
-		var _op_bordery = 7;
+		var _op_bordery = 0;
 		
 		op_sel += keyboard_check_pressed(vk_up) - keyboard_check_pressed(vk_down);
 		op_sel = clamp(op_sel, 0, op_num - 1);
