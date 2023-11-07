@@ -1,6 +1,6 @@
 function src_dialogues() {
 	switch obj_name {
-		case "Computer":
+		case "First":
 			ds_grid_add_text("Olá? Tudo bem com você? Eu me chamo Sebastian!", spr_sebastian_1, 0, "Sebastian");
 			ds_grid_add_text("Oiii, eu me chamo Abigail! Prazer em te conhecer!", spr_abigail_1, 1, "Abigail");
 			ds_grid_add_text("Que legal Abigail! O prazer é todo meu!", spr_sebastian_5, 0, "Sebastian");
@@ -13,7 +13,6 @@ function src_dialogues() {
 					ds_grid_add_text("Meu dia está sendo ótimo! E o seu?", spr_abigail_1, 1, "Abigail");
 					ds_grid_add_text("Tem sido bem corrido, mas tem sido muito bom!", spr_sebastian_5, 0, "Sebastian");
 					ds_grid_add_text("Vocês se deram muito bem!", spr_abigail_2, -1, noone);
-					
 					//bom += 1;
 				break;
 				case "ANS2":

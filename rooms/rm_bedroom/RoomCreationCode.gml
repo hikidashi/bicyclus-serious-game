@@ -4,5 +4,5 @@ if !instance_exists(obj_ctrl) {
 
 if !global.dialogue {
 	var _dialogue = instance_create_layer(0, 0, "Dialogue", obj_dialogue);
-	_dialogue.obj_name = "Computer";
+	_dialogue.obj_name = "First";
 }
