@@ -14,7 +14,7 @@ dialogues = ds_grid_create(4, 0);
 page = 0;
 char = 0;
 
-alarm[0] = 1;
+alarm[0] = 4;
 
 op[0] = "";
 op_ans[0] = "";

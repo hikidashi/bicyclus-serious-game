@@ -1,7 +1,7 @@
 if !init {
 	src_dialogues();
 	init = true;
-	alarm[0] = 1;
+	alarm[0] = 4;
 }
 
 if char < string_length(dialogues[# INFO.TEXT, page]) {
