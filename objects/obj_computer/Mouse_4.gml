@@ -1,0 +1,3 @@
+if !init {
+	init = true;
+}

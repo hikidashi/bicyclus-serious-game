@@ -36,6 +36,7 @@
     {"name":"obj_bed","order":1,"path":"objects/obj_bed/obj_bed.yy",},
     {"name":"obj_desk","order":2,"path":"objects/obj_desk/obj_desk.yy",},
     {"name":"spr_abigail_2","order":1,"path":"sprites/spr_abigail_2/spr_abigail_2.yy",},
+    {"name":"spr_pc_ui","order":2,"path":"sprites/spr_pc_ui/spr_pc_ui.yy",},
     {"name":"spr_sebastian_2","order":2,"path":"sprites/spr_sebastian_2/spr_sebastian_2.yy",},
     {"name":"rm_reception","order":1,"path":"rooms/rm_reception/rm_reception.yy",},
     {"name":"spr_abigail_7","order":6,"path":"sprites/spr_abigail_7/spr_abigail_7.yy",},

@@ -56,6 +56,7 @@
     {"id":{"name":"obj_desk","path":"objects/obj_desk/obj_desk.yy",},},
     {"id":{"name":"ScriptDialogues","path":"scripts/ScriptDialogues/ScriptDialogues.yy",},},
     {"id":{"name":"spr_abigail_2","path":"sprites/spr_abigail_2/spr_abigail_2.yy",},},
+    {"id":{"name":"spr_pc_ui","path":"sprites/spr_pc_ui/spr_pc_ui.yy",},},
     {"id":{"name":"spr_sebastian_2","path":"sprites/spr_sebastian_2/spr_sebastian_2.yy",},},
     {"id":{"name":"rm_reception","path":"rooms/rm_reception/rm_reception.yy",},},
     {"id":{"name":"snd_dialogue","path":"sounds/snd_dialogue/snd_dialogue.yy",},},
