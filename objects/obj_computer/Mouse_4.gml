@@ -1,3 +1,0 @@
-if !init {
-	init = true;
-}
