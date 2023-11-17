@@ -49,10 +49,6 @@ if init {
 			var _strw = string_width(op[_i]);
 			draw_sprite_ext(spr_op_bg, op_sel == _i, _opx, _opy - _op_sep * _i, (_strw + _op_borderx * 2) / 16, 1, 0, c_white, 1);
 			draw_text(_opx + _op_borderx, _opy - _op_sep * _i + _op_bordery, op[_i]);
-			
-			// if op_sel == _i {
-			// 	draw_sprite(spr_op_sel, 0, _xx + 8, _opy - _op_sep * _i + 8);
-			// }
 		}
 		
 		if global.keypress {
