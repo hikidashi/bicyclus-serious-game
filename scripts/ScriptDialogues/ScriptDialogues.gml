@@ -13,7 +13,6 @@ function src_dialogues() {
 					ds_grid_add_text("Meu dia está sendo ótimo! E o seu?", spr_abigail_1, 1, "Abigail");
 					ds_grid_add_text("Tem sido bem corrido, mas tem sido muito bom!", spr_sebastian_5, 0, "Sebastian");
 					ds_grid_add_text("Vocês se deram muito bem!", spr_abigail_2, -1, noone);
-					//bom += 1;
 					break;
 				case "ANS2":
 					ds_grid_add_text("Olha, eu to desocupada, então no momento estou fazendo nada!", spr_abigail_1, 1, "Abigail");
@@ -24,6 +23,17 @@ function src_dialogues() {
 					ds_grid_add_text("Claro que podemos! Adoraria dar uma olhada lá fora!", spr_abigail_1, 1, "Abigail");
 					ds_grid_add_text("O tempo está muito bonito hoje, vamos!", spr_sebastian_5, 0, "Sebastian");
 					ds_grid_add_text("Vocês fazem um passeio muito agradável.", spr_abigail_2, -1, noone);
+					break;
+		case "Computer":
+			ds_grid_add_text("Olha só! Tem uma mensagem para mim aqui!", spr_sebastian_1, 1, "Sebastian");
+				add_op("Ler a mensagem", "READ");
+				add_op("Fechar o computador", "EXIT");
+			break;
+				case "READ":
+					ds_grid_add_text("Olha só! É o retorno da Von Drais sobre meu processo seletivo!", spr_sebastian_1, 1, "Sebastian");
+					break;
+				case "EXIT":
+					ds_grid_add_text("Não deve ser muito urgente... leio outra hora.", spr_sebastian_1, 1, "Sebastian");
 					break;
 	}
 }
