@@ -31,6 +31,7 @@ function src_dialogues() {
 			break;
 				case "READ":
 					ds_grid_add_text("Olha só! É o retorno da Von Drais sobre meu processo seletivo!", spr_sebastian_1, 1, "Sebastian");
+					global.computer.sprite = 1;
 					break;
 				case "EXIT":
 					ds_grid_add_text("Não deve ser muito urgente... leio outra hora.", spr_sebastian_1, 1, "Sebastian");
