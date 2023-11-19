@@ -1,3 +1,3 @@
 init = false;
 
-sprite = 0;
+email = false;

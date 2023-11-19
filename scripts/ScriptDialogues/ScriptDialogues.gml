@@ -9,10 +9,17 @@ function src_dialogues() {
 					ds_grid_add_text("Não deve ser muito urgente... leio outra hora.", spr_sebastian_1, 1, "Sebastian");
 					break;
 				case "READMSG1":
-					ds_grid_add_text("Que legal! É o retorno da Von Drais sobre meu processo seletivo!", spr_sebastian_2, 1, "Sebastian");
 					global.computer.email = true;
+					ds_grid_add_text("Que legal! É o retorno da Von Drais sobre meu processo seletivo!", spr_sebastian_2, 1, "Sebastian");
 					break;
 	}
+}
+
+function start_dialogue(_name) {
+	if !global.dialogue {
+		var _dialogue = instance_create_layer(0, 0, "Dialogue", obj_dialogue);
+		_dialogue.obj_name = _name;
+	}	
 }
 
 function add_op(_txt, _ans) {
@@ -35,6 +42,7 @@ function ds_grid_add_text(){
 	///@arg imge
 	///@arg side
 	///@arg name
+	///@arg next
  
 	var _grid = dialogues;
 	var _y = ds_grid_add_row(_grid);
@@ -43,4 +51,5 @@ function ds_grid_add_text(){
 	_grid[# 1, _y] = argument[1];
 	_grid[# 2, _y] = argument[2];
 	_grid[# 3, _y] = argument[3];
+	_grid[# 4, _y] = argument[4];
 }

@@ -6,10 +6,11 @@ enum INFO {
 	TEXT,
 	IMGE,
 	SIDE,
-	NAME
+	NAME,
+	NEXT
 }
 
-dialogues = ds_grid_create(4, 0);
+dialogues = ds_grid_create(5, 0);
 
 page = 0;
 char = 0;
