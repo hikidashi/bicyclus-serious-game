@@ -26,6 +26,7 @@
     {"name":"spr_op_sel","order":1,"path":"sprites/spr_op_sel/spr_op_sel.yy",},
     {"name":"spr_abigail_4","order":3,"path":"sprites/spr_abigail_4/spr_abigail_4.yy",},
     {"name":"obj_parent","order":2,"path":"objects/obj_parent/obj_parent.yy",},
+    {"name":"spr_clothes","order":4,"path":"sprites/spr_clothes/spr_clothes.yy",},
     {"name":"spr_bg_reception","order":1,"path":"sprites/spr_bg_reception/spr_bg_reception.yy",},
     {"name":"obj_pc_ui","order":5,"path":"objects/obj_pc_ui/obj_pc_ui.yy",},
     {"name":"spr_sebastian_5","order":5,"path":"sprites/spr_sebastian_5/spr_sebastian_5.yy",},

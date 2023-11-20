@@ -44,6 +44,7 @@
     {"id":{"name":"spr_op_sel","path":"sprites/spr_op_sel/spr_op_sel.yy",},},
     {"id":{"name":"spr_abigail_4","path":"sprites/spr_abigail_4/spr_abigail_4.yy",},},
     {"id":{"name":"obj_parent","path":"objects/obj_parent/obj_parent.yy",},},
+    {"id":{"name":"spr_clothes","path":"sprites/spr_clothes/spr_clothes.yy",},},
     {"id":{"name":"spr_op_bg","path":"sprites/spr_op_bg/spr_op_bg.yy",},},
     {"id":{"name":"spr_bg_reception","path":"sprites/spr_bg_reception/spr_bg_reception.yy",},},
     {"id":{"name":"obj_pc_ui","path":"objects/obj_pc_ui/obj_pc_ui.yy",},},
