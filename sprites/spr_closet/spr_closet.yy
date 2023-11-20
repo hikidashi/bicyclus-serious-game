@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_dresser",
+  "name": "spr_closet",
   "bbox_bottom": 427,
   "bbox_left": 0,
   "bbox_right": 573,
@@ -34,7 +34,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "spr_dresser",
+    "name": "spr_closet",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -56,8 +56,8 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"39b7b2d8-55a6-4bd5-8a3a-e61c61c97c04","path":"sprites/spr_dresser/spr_dresser.yy",},},},"Disabled":false,"id":"561a26ae-174f-4f79-8ebf-039adfd73841","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"272b382a-7e55-4b01-b0a3-2a6100bdef5d","path":"sprites/spr_dresser/spr_dresser.yy",},},},"Disabled":false,"id":"66b032e5-03dd-46d8-ae18-e8e4280e87f6","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"39b7b2d8-55a6-4bd5-8a3a-e61c61c97c04","path":"sprites/spr_closet/spr_closet.yy",},},},"Disabled":false,"id":"561a26ae-174f-4f79-8ebf-039adfd73841","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"272b382a-7e55-4b01-b0a3-2a6100bdef5d","path":"sprites/spr_closet/spr_closet.yy",},},},"Disabled":false,"id":"66b032e5-03dd-46d8-ae18-e8e4280e87f6","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

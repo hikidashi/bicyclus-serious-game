@@ -2,7 +2,9 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_closet",
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -29,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_dresser",
-    "path": "sprites/spr_dresser/spr_dresser.yy",
+    "name": "spr_closet",
+    "path": "sprites/spr_closet/spr_closet.yy",
   },
   "spriteMaskId": null,
   "visible": true,
