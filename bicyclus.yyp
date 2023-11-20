@@ -65,6 +65,7 @@
     {"id":{"name":"spr_abigail_7","path":"sprites/spr_abigail_7/spr_abigail_7.yy",},},
     {"id":{"name":"spr_dresser","path":"sprites/spr_dresser/spr_dresser.yy",},},
     {"id":{"name":"fnt_dialogue","path":"fonts/fnt_dialogue/fnt_dialogue.yy",},},
+    {"id":{"name":"spr_bg_bedroom_night","path":"sprites/spr_bg_bedroom_night/spr_bg_bedroom_night.yy",},},
     {"id":{"name":"obj_ctrl","path":"objects/obj_ctrl/obj_ctrl.yy",},},
     {"id":{"name":"spr_sebastian_6","path":"sprites/spr_sebastian_6/spr_sebastian_6.yy",},},
     {"id":{"name":"spr_sebastian_8","path":"sprites/spr_sebastian_8/spr_sebastian_8.yy",},},
