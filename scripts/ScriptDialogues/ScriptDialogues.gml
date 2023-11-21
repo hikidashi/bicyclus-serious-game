@@ -1,16 +1,16 @@
 function src_dialogues() {
 	switch obj_name {
 		case "Computer":
-			ds_grid_add_text("Olha só! Tem uma nova mensagem para mim!", spr_sebastian_1, 1, "Sebastian");
+			ds_grid_add_text("Olha só! Tem uma nova mensagem para mim!", _5_smile, 1, "Jeff");
 			add_op("Fechar", "CLOSEPS1");
 			add_op("Ler a mensagem", "READMSG1");
 			break;
 				case "CLOSEPS1":
-					ds_grid_add_text("Não deve ser muito urgente... leio outra hora.", spr_sebastian_1, 1, "Sebastian");
+					ds_grid_add_text("Não deve ser muito urgente... leio outra hora.", _5_disagree, 1, "Jeff");
 					break;
 				case "READMSG1":
 					global.computer.email = true;
-					ds_grid_add_text("Que legal! É o retorno da Von Drais sobre meu processo seletivo!", spr_sebastian_2, 1, "Sebastian");
+					ds_grid_add_text("Que legal! É o retorno da Von Drais sobre meu processo seletivo!", _5_smile2, 1, "Jeff");
 					break;
 	}
 }
