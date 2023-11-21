@@ -1,5 +1,7 @@
 draw_self();
 
-if image_index {
-	draw_sprite(spr_clothes, 0, x, y);
+var _open = image_index;
+
+with obj_accs {
+	visible = _open && !picked;
 }
