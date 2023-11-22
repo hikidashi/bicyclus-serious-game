@@ -14,7 +14,7 @@ if init {
 		var _b = c_black;
 		var _txt = [
 			"Olá, tudo bem?",
-			"Parabéns! Você foi aprovado no processo seletivo para participar do programa de trainee da Fábrica de Bicicletas Von Drais, seja muito bem-vindo!",
+			"Parabéns! Você foi aprovado no processo seletivo para participar do programa de trainee da Fábrica de Bicicletas Von Drais. Seja muito bem-vindo!",
 			"Seu treinamento iniciará amanhã, às 8 horas. Neste dia, compareça na empresa munido de seus documentos para que possamos apresentar os setores da fábrica onde você atuará.",
 			"Atenciosamente, Equipe de Seleção Von Drais."
 		];
