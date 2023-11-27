@@ -1,7 +1,7 @@
 if init {
 	var _str = dialogues[# INFO.TEXT, page];
 	if char < string_length(_str) {
-		var _snd = choose(Pen_v6_wav, Pen_v7_wav, Pen_v8_wav, Pen_v9_wav, Pen_v10_wav, Pen_v11_wav, Pen_v12_wav, Pen_v13_wav, Pen_v14_wav, Pen_v15_wav, Pen_v16_wav, Pen_v17_wav, Pen_v18_wav);
+		var _snd = choose(snd_pen_01, snd_pen_02, snd_pen_03, snd_pen_04, snd_pen_05, snd_pen_06, snd_pen_07, snd_pen_08, snd_pen_09, snd_pen_10, snd_pen_11, snd_pen_12, snd_pen_13);
 		audio_play_sound(_snd, 1, 0);
 		char += 1;
 		

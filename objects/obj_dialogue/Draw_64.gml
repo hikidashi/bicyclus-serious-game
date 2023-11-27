@@ -14,7 +14,7 @@ if init {
 	if dialogues[# INFO.SIDE, page] == 0 {
 		draw_rectangle_color(_xx + 0, _yy, _guiw, _guih, _c, _c, _c, _c, false);
 		draw_text_ext(_xx + 232, _yy + 32, _txt, 30, _guiw - 264);
-		draw_sprite_ext(_spr, 0, 100, _guih, -0.2, 0.2, 0, c_white, 1);
+		draw_sprite_ext(_spr, 0, 100, _guih, -3, 3, 0, c_white, 1);
 		
 		var _stgw = string_width(dialogues[# INFO.NAME, page]);
 		draw_rectangle_color(0, _guih - 32, _stgw + 16, _guih, _c, _c, _c, _c, false);
@@ -23,7 +23,7 @@ if init {
 	else if dialogues[# INFO.SIDE, page] == 1 {
 		draw_rectangle_color(_xx, _yy, _guiw - 0, _guih, _c, _c, _c, _c, false);
 		draw_text_ext(_xx + 32, _yy + 32, _txt, 30, _guiw - 264);
-		draw_sprite_ext(_spr, 0, _guiw - 100, _guih, 0.2, 0.2, 0, c_white, 1);
+		draw_sprite_ext(_spr, 0, _guiw - 100, _guih, 3, 3, 0, c_white, 1);
 		
 		var _stgw = string_width(dialogues[# INFO.NAME, page]);
 		draw_rectangle_color(_guiw - _stgw - 16, _guih - 32, _guiw, _guih, _c, _c, _c, _c, false);
