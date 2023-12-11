@@ -1,3 +1,3 @@
 event_inherited();
 
-name = "Computer";
+name = "Computador";

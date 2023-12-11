@@ -53,6 +53,7 @@
     {"id":{"name":"spr_portrait_2","path":"sprites/spr_portrait_2/spr_portrait_2.yy",},},
     {"id":{"name":"obj_pc_ui","path":"objects/obj_pc_ui/obj_pc_ui.yy",},},
     {"id":{"name":"obj_bed","path":"objects/obj_bed/obj_bed.yy",},},
+    {"id":{"name":"snd_cricket","path":"sounds/snd_cricket/snd_cricket.yy",},},
     {"id":{"name":"obj_desk","path":"objects/obj_desk/obj_desk.yy",},},
     {"id":{"name":"snd_pen_07","path":"sounds/snd_pen_07/snd_pen_07.yy",},},
     {"id":{"name":"ScriptDialogues","path":"scripts/ScriptDialogues/ScriptDialogues.yy",},},

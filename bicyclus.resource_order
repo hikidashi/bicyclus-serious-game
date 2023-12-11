@@ -32,6 +32,7 @@
     {"name":"spr_bg_reception","order":1,"path":"sprites/spr_bg_reception/spr_bg_reception.yy",},
     {"name":"obj_pc_ui","order":5,"path":"objects/obj_pc_ui/obj_pc_ui.yy",},
     {"name":"obj_bed","order":1,"path":"objects/obj_bed/obj_bed.yy",},
+    {"name":"snd_cricket","order":15,"path":"sounds/snd_cricket/snd_cricket.yy",},
     {"name":"obj_desk","order":2,"path":"objects/obj_desk/obj_desk.yy",},
     {"name":"snd_pen_07","order":6,"path":"sounds/snd_pen_07/snd_pen_07.yy",},
     {"name":"obj_title","order":3,"path":"objects/obj_title/obj_title.yy",},
