@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_closet",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -13,8 +13,8 @@
     "path": "folders/Objects/Bedroom.yy",
   },
   "parentObjectId": {
-    "name": "obj_parent",
-    "path": "objects/obj_parent/obj_parent.yy",
+    "name": "obj_desk",
+    "path": "objects/obj_desk/obj_desk.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
