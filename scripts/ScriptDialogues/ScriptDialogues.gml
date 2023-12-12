@@ -1,5 +1,7 @@
 function src_dialogues() {
 	switch obj_name {
+		default:
+			break;
 		case "Computador":
 			ds_grid_add_text("Olha só! Tem uma nova mensagem para mim!", spr_portrait_1, 1, "Jeff");
 			add_op("Fechar", "CLOSEPS1");
