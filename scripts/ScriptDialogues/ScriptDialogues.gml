@@ -3,7 +3,7 @@ function src_dialogues() {
 		default:
 			break;
 		case "start":
-			ds_grid_add_text("Olha só! Tem uma nova mensagem para mim!", spr_portrait_1, 1, "Jeff");
+			ds_grid_add_text("Depois de um dia cansativo, nada melhor que chegar em casa!", spr_portrait_1, 0, "Jeff");
 			break;
 		case "Computador":
 			ds_grid_add_text("Olha só! Tem uma nova mensagem para mim!", spr_portrait_1, 1, "Jeff");
