@@ -1,7 +1,5 @@
 function src_dialogues() {
 	switch obj_name {
-		default:
-			break;
 		case "start":
 			ds_grid_add_text("Depois de um dia cheio, nada melhor que chegar em casa!", spr_portrait_2, 0, "Jeff");
 			ds_grid_add_text("Estive a semana toda ocupado com o processo seletivo para uma fábrica de bicicletas local, a Von Drais.", spr_portrait_1, 0, "Jeff");
@@ -25,7 +23,7 @@ function src_dialogues() {
 					ds_grid_add_text("Ainda não, daqui a pouco eu vou!", spr_portrait_1, 1, "Jeff");
 					break;
 				case "SLEEPBED1":
-					ds_grid_add_text("Bom, hora de descansar!", spr_portrait_2, 1, "Jeff");
+					ds_grid_add_text("Hora de descansar!", spr_portrait_2, 1, "Jeff");
 					break;
 		case "computer1":
 			ds_grid_add_text("Olha só! Tem uma nova mensagem para mim!", spr_portrait_1, 1, "Jeff");
@@ -37,12 +35,10 @@ function src_dialogues() {
 					break;
 				case "READMSG1":
 					global.computer.email = true;
-					ds_grid_add_text("Que legal! É o retorno da Von Drais sobre meu processo seletivo!", spr_portrait_2, 1, "Jeff", "afteremail1");
+					ds_grid_add_text("Que legal! É o retorno da Von Drais sobre meu processo seletivo!", spr_portrait_2, 1, "Jeff");
+					ds_grid_add_text("Estou tão feliz que consegui! Amanhã vai ser um dia especial!", spr_portrait_2, 0, "Jeff");
+					ds_grid_add_text("Então é melhor que eu durma logo pra poder me organizar o quanto antes.", spr_portrait_2, 0, "Jeff");
 					break;
-		case "afteremail1":
-			ds_grid_add_text("Estou tão feliz que consegui! Amanhã vai ser um dia especial!", spr_portrait_2, 0, "Jeff");
-			ds_grid_add_text("Então é melhor que eu durma logo pra poder me organizar o quanto antes.", spr_portrait_2, 0, "Jeff");
-				break;
 	}
 }
 
