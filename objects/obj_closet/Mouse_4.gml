@@ -5,6 +5,6 @@ if !global.dialogue {
 
 switch global.scene {
 	case 1:
-		start_dialogue("drawer1");
+		start_dialogue("dresser1");
 		break;
 }

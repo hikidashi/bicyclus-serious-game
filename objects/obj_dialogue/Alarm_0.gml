@@ -11,7 +11,7 @@ if init {
 			case ".":
 			case "?":
 			case "!":
-				alarm[0] = 15;
+				alarm[0] = 30;
 				break;
 			default:
 				alarm[0] = 4;
