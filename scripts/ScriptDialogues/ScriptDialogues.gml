@@ -1,6 +1,7 @@
 function src_dialogues() {
 	switch obj_name {
 		case "start":
+			audio_play_sound(snd_cricket, 0, true);
 			ds_grid_add_text("Depois de um dia cheio, nada melhor que chegar em casa!", spr_portrait_2, 0, "Jeff");
 			ds_grid_add_text("Estive a semana toda ocupado com o processo seletivo para uma fábrica de bicicletas local, a Von Drais.", spr_portrait_1, 0, "Jeff");
 			ds_grid_add_text("E hoje eles me retornarão com a resposta!", spr_portrait_2, 0, "Jeff");
@@ -39,6 +40,14 @@ function src_dialogues() {
 					ds_grid_add_text("Estou tão feliz que consegui! Amanhã vai ser um dia especial!", spr_portrait_2, 0, "Jeff");
 					ds_grid_add_text("Então é melhor que eu durma logo pra poder me organizar o quanto antes.", spr_portrait_2, 0, "Jeff");
 					break;
+		case "day2":
+			global.scene = 2;
+			audio_stop_sound(snd_cricket);
+			audio_play_sound(snd_birds, 0, true);
+			ds_grid_add_text("Hoje é o grande dia!", spr_portrait_2, 0, "Jeff");
+			ds_grid_add_text("Mal posso esperar para ir para a Von Drais! Vai ser perfeito!", spr_portrait_2, 0, "Jeff");
+			ds_grid_add_text("Preciso me organizar!", spr_portrait_1, 0, "Jeff");
+			break;
 	}
 }
 

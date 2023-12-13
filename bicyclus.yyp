@@ -36,6 +36,7 @@
   },
   "resources": [
     {"id":{"name":"obj_accs","path":"objects/obj_accs/obj_accs.yy",},},
+    {"id":{"name":"snd_birds","path":"sounds/snd_birds/snd_birds.yy",},},
     {"id":{"name":"snd_drawer_open","path":"sounds/snd_drawer_open/snd_drawer_open.yy",},},
     {"id":{"name":"snd_closet_close","path":"sounds/snd_closet_close/snd_closet_close.yy",},},
     {"id":{"name":"spr_portrait_1","path":"sprites/spr_portrait_1/spr_portrait_1.yy",},},
@@ -73,6 +74,7 @@
     {"id":{"name":"spr_bg_bedroom","path":"sprites/spr_bg_bedroom/spr_bg_bedroom.yy",},},
     {"id":{"name":"spr_closet","path":"sprites/spr_closet/spr_closet.yy",},},
     {"id":{"name":"fnt_dialogue","path":"fonts/fnt_dialogue/fnt_dialogue.yy",},},
+    {"id":{"name":"snd_bed","path":"sounds/snd_bed/snd_bed.yy",},},
     {"id":{"name":"spr_bg_bedroom_night","path":"sprites/spr_bg_bedroom_night/spr_bg_bedroom_night.yy",},},
     {"id":{"name":"obj_ctrl","path":"objects/obj_ctrl/obj_ctrl.yy",},},
     {"id":{"name":"snd_pen_11","path":"sounds/snd_pen_11/snd_pen_11.yy",},},
