@@ -9,13 +9,24 @@ function src_dialogues() {
 			ds_grid_add_text("Por isso, tenho que estar atento à mensagem deles.", spr_portrait_1, 0, "Jeff");
 			break;
 		case "dresser1":
-			ds_grid_add_text("Meu guarda-roupa! Não tem muitas roupas, trouxe poucas desde minha mudança para esta cidade maravilhosa, a caidade de Oikos!", spr_portrait_1, 1, "Jeff");
+			ds_grid_add_text("Meu guarda-roupa! Não tem muitas roupas, trouxe poucas desde minha mudança para esta cidade maravilhosa, a cidade de Oikos!", spr_portrait_1, 1, "Jeff");
 			ds_grid_add_text("Então acabei com apenas as casuais e umas para ocasiões importantes, como para um emprego!", spr_portrait_2, 1, "Jeff");
 			break;
 		case "drawer1":
 			ds_grid_add_text("Minha gaveta com meus pertences, como documentos, acessórios e outros.", spr_portrait_1, 0, "Jeff");
 			ds_grid_add_text("Devo me certificar de não esquecer nada para quando sair de casa!", spr_portrait_2, 0, "Jeff");
 			break;
+		case "bed1":
+			ds_grid_add_text("Certo! Se tudo estiver em ordem, hora de dormir!", spr_portrait_1, 1, "Jeff");
+			add_op("Fechar", "CLOSEBED1");
+			add_op("Dormir", "SLEEPBED1");
+			break;
+				case "CLOSEBED1":
+					ds_grid_add_text("Ainda não, daqui a pouco eu vou!", spr_portrait_1, 1, "Jeff");
+					break;
+				case "SLEEPBED1":
+					ds_grid_add_text("Bom, hora de descansar!", spr_portrait_2, 1, "Jeff");
+					break;
 		case "computer1":
 			ds_grid_add_text("Olha só! Tem uma nova mensagem para mim!", spr_portrait_1, 1, "Jeff");
 			add_op("Fechar", "CLOSEPS1");

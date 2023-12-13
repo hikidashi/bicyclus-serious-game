@@ -7,6 +7,7 @@
     {"name":"Rooms","order":10,"path":"folders/Rooms.yy",},
     {"name":"Scripts","order":5,"path":"folders/Scripts.yy",},
     {"name":"Sounds","order":3,"path":"folders/Sounds.yy",},
+    {"name":"bedroom","order":16,"path":"folders/Sounds/bedroom.yy",},
     {"name":"dialogue","order":14,"path":"folders/Sounds/dialogue.yy",},
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
     {"name":"Backgrounds","order":1,"path":"folders/Sprites/Backgrounds.yy",},
@@ -15,7 +16,6 @@
     {"name":"Characters","order":5,"path":"folders/Sprites/Characters.yy",},
     {"name":"portrait","order":1,"path":"folders/Sprites/Characters/portrait.yy",},
     {"name":"Interface","order":6,"path":"folders/Sprites/Interface.yy",},
-    {"name":"bedroom","order":16,"path":"folders/Sounds/bedroom.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_accs","order":6,"path":"objects/obj_accs/obj_accs.yy",},
