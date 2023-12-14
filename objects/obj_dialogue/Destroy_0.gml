@@ -14,6 +14,7 @@ switch global.scene {
 			open = false;	
 		}
 		if obj_name == "SLEEPBED1" {
+			global.scene = -1;
 			with obj_ctrl {
 				alarm[1] = 300;
 			}	

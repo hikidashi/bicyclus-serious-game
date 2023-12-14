@@ -70,6 +70,7 @@
     {"id":{"name":"ScriptDialogues","path":"scripts/ScriptDialogues/ScriptDialogues.yy",},},
     {"id":{"name":"snd_pc_over","path":"sounds/snd_pc_over/snd_pc_over.yy",},},
     {"id":{"name":"obj_btn","path":"objects/obj_btn/obj_btn.yy",},},
+    {"id":{"name":"obj_transition","path":"objects/obj_transition/obj_transition.yy",},},
     {"id":{"name":"obj_title","path":"objects/obj_title/obj_title.yy",},},
     {"id":{"name":"spr_hat","path":"sprites/spr_hat/spr_hat.yy",},},
     {"id":{"name":"rm_reception","path":"rooms/rm_reception/rm_reception.yy",},},

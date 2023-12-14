@@ -50,7 +50,6 @@ function src_dialogues() {
 					ds_grid_add_text("Então é melhor que eu durma logo pra poder me organizar o quanto antes.", spr_portrait_2, 1, "Jeff");
 					break;
 		case "day2":
-			global.scene = 2;
 			audio_stop_sound(snd_cricket);
 			audio_play_sound(snd_birds, 0, true);
 			ds_grid_add_text("Hoje é o grande dia!", spr_portrait_2, 0, "Jeff");

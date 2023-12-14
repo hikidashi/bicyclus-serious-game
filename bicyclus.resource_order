@@ -45,6 +45,7 @@
     {"name":"obj_desk","order":2,"path":"objects/obj_desk/obj_desk.yy",},
     {"name":"snd_pen_07","order":6,"path":"sounds/snd_pen_07/snd_pen_07.yy",},
     {"name":"snd_pc_over","order":4,"path":"sounds/snd_pc_over/snd_pc_over.yy",},
+    {"name":"obj_transition","order":7,"path":"objects/obj_transition/obj_transition.yy",},
     {"name":"obj_title","order":3,"path":"objects/obj_title/obj_title.yy",},
     {"name":"spr_hat","order":2,"path":"sprites/spr_hat/spr_hat.yy",},
     {"name":"rm_reception","order":1,"path":"rooms/rm_reception/rm_reception.yy",},
