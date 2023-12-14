@@ -7,6 +7,9 @@ function src_dialogues() {
 			ds_grid_add_text("E hoje eles me retornarão com a resposta!", spr_portrait_2, 0, "Jeff");
 			ds_grid_add_text("Por isso, tenho que estar atento à mensagem deles.", spr_portrait_1, 0, "Jeff");
 			break;
+		case "door1":
+			ds_grid_add_text("Está tarde demais para sair agora.", spr_portrait_1, 1, "Jeff");
+			break;
 		case "dresser1":
 			ds_grid_add_text("Meu guarda-roupa! Não tem muitas roupas, trouxe poucas desde minha mudança para esta cidade maravilhosa, a cidade de Oikos!", spr_portrait_1, 1, "Jeff");
 			ds_grid_add_text("Então acabei com apenas as casuais e umas para ocasiões importantes, como para um emprego!", spr_portrait_2, 1, "Jeff");
@@ -26,6 +29,12 @@ function src_dialogues() {
 				case "SLEEPBED1":
 					ds_grid_add_text("Hora de descansar!", spr_portrait_2, 1, "Jeff");
 					break;
+		case "hat1":
+			ds_grid_add_text("Meu boné para os dias de muito sol!", spr_portrait_2, 1, "Jeff");
+			break;
+		case "shoes1":
+			ds_grid_add_text("Meus tênis! São bem confortáveis.", spr_portrait_1, 1, "Jeff");
+			break;
 		case "computer1":
 			ds_grid_add_text("Olha só! Tem uma nova mensagem para mim!", spr_portrait_1, 1, "Jeff");
 			add_op("Fechar", "CLOSEPS1");

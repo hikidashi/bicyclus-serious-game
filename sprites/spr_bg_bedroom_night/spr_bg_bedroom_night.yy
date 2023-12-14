@@ -24,7 +24,7 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1a294cdc-cfeb-4594-ace9-eb733ee3a826","blendMode":0,"displayName":"Layer 5","isLocked":false,"opacity":100.0,"visible":true,},
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"ee560c8e-2a28-48ad-9f10-0ca198b44760","blendMode":0,"displayName":"Layer 1","isLocked":false,"opacity":25.0,"visible":true,},
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"73c4d26f-f9f6-4465-bc10-8592f3e03bf4","blendMode":0,"displayName":"Layer 6","isLocked":false,"opacity":100.0,"visible":true,},
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1b7fa25f-7cb6-4eaf-aa22-8d866bed5c0b","blendMode":0,"displayName":"Layer 4","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1b7fa25f-7cb6-4eaf-aa22-8d866bed5c0b","blendMode":0,"displayName":"Layer 4","isLocked":false,"opacity":100.0,"visible":false,},
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"591a0bb5-1089-47de-bdb6-d1631d5e6eaf","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
