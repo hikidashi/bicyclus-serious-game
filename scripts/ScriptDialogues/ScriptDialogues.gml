@@ -46,8 +46,8 @@ function src_dialogues() {
 				case "READMSG1":
 					global.computer.email = true;
 					ds_grid_add_text("Que legal! É o retorno da Von Drais sobre meu processo seletivo!", spr_portrait_2, 1, "Jeff");
-					ds_grid_add_text("Estou tão feliz que consegui! Amanhã vai ser um dia especial!", spr_portrait_2, 0, "Jeff");
-					ds_grid_add_text("Então é melhor que eu durma logo pra poder me organizar o quanto antes.", spr_portrait_2, 0, "Jeff");
+					ds_grid_add_text("Estou tão feliz que consegui! Amanhã vai ser um dia especial!", spr_portrait_2, 1, "Jeff");
+					ds_grid_add_text("Então é melhor que eu durma logo pra poder me organizar o quanto antes.", spr_portrait_2, 1, "Jeff");
 					break;
 		case "day2":
 			global.scene = 2;
