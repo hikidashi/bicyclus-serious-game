@@ -140,6 +140,15 @@ function src_dialogues() {
 				case "BACK2":
 					ds_grid_add_text("Vou deixar este em casa dessa vez.", spr_portrait_1, 0, "Jeff");
 					break;
+		case "tshirt2":
+			ds_grid_add_text("Adoro esta estampa! Acho que vai ficar legal.", spr_portrait_2, 1, "Jeff");
+			break;
+		case "shirt2":
+			ds_grid_add_text("Acho que um visual mais formal é o correto.", spr_portrait_1, 1, "Jeff");
+			break;
+		case "pants2":
+			ds_grid_add_text("Não posso me esquecer de vesti-las", spr_portrait_1, 1, "Jeff");
+			break;
 	}
 }
 
