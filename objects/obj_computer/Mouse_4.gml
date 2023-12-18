@@ -6,6 +6,9 @@ switch global.scene {
 			global.computer.init = true;
 		}
 		break;
+	case 2:
+		name = "computer2";
+		break;
 }
 
 event_inherited();

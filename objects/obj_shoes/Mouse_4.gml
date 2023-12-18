@@ -3,6 +3,6 @@ switch global.scene {
 		start_dialogue("shoes1");
 		break;
 	case 2:
-		picked = true;
+		start_dialogue("shoes2");
 		break;
 }

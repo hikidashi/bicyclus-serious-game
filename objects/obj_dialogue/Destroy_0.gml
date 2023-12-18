@@ -14,10 +14,18 @@ switch global.scene {
 			open = false;	
 		}
 		if obj_name == "SLEEPBED1" {
+			//room_instance_add(rm_bedroom, 0, 0, obj_transition);
 			global.scene = -1;
 			with obj_ctrl {
 				alarm[1] = 300;
-			}	
+			}
 		}
 		break;
+	case 2:
+		if obj_name == "LEAVE2" {
+			global.scene = -1;
+			//with obj_ctrl {
+			//	alarm[1] = 300;
+			//}
+		}
 }

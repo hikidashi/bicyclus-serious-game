@@ -35,6 +35,9 @@ function src_dialogues() {
 		case "shoes1":
 			ds_grid_add_text("Meus tênis! São bem confortáveis.", spr_portrait_1, 1, "Jeff");
 			break;
+		case "flops1":
+			ds_grid_add_text("Um simples e confortável chinelo.", spr_portrait_1, 1, "Jeff");
+			break;
 		case "computer1":
 			ds_grid_add_text("Olha só! Tem uma nova mensagem para mim!", spr_portrait_1, 1, "Jeff");
 			add_op("Fechar", "CLOSEPS1");
@@ -56,6 +59,87 @@ function src_dialogues() {
 			ds_grid_add_text("Mal posso esperar para ir para a Von Drais! Vai ser perfeito!", spr_portrait_2, 0, "Jeff");
 			ds_grid_add_text("Preciso me organizar!", spr_portrait_1, 0, "Jeff");
 			break;
+		case "bed2":
+			ds_grid_add_text("Estou com muita energia para pensar em dormir agora!", spr_portrait_1, 0, "Jeff");
+			break;
+		case "computer2":
+			ds_grid_add_text("Sem novas mensagens no momento.", spr_portrait_1, 0, "Jeff");
+			break;
+		case "door2":
+			ds_grid_add_text("Chegou a hora!", spr_portrait_2, 1, "Jeff");
+			add_op("Voltar", "STAY2");
+			add_op("Sair", "LEAVE2");
+			break;
+				case "STAY2":
+					ds_grid_add_text("Ainda não estou pronto, mas já vou!", spr_portrait_1, 1, "Jeff");
+					break;
+				case "LEAVE2":
+					ds_grid_add_text("E lá vamos nós!", spr_portrait_2, 1, "Jeff");
+					break;
+		case "docs2":
+			ds_grid_add_text("Meus documentos!", spr_portrait_1, 0, "Jeff");
+			add_op("Voltar", "BACK2");
+			add_op("Pegar", "DOCS2");
+			break;
+				case "DOCS2":
+					ds_grid_add_text("Bem que eles avisaram que era necessário levar!", spr_portrait_2, 0, "Jeff");
+					with obj_docs {
+						picked = true;	
+					}
+					break;
+		case "keys2":
+			ds_grid_add_text("As chaves de casa, é claro!", spr_portrait_1, 0, "Jeff");
+			add_op("Voltar", "BACK2");
+			add_op("Pegar", "KEYS2");
+			break;
+				case "KEYS2":
+					ds_grid_add_text("Não saio de casa sem elas!", spr_portrait_2, 0, "Jeff");
+					with obj_keys {
+						picked = true;	
+					}
+					break;
+		case "shoes2":
+			ds_grid_add_text("Um bom e confortável tênis.", spr_portrait_1, 1, "Jeff");
+			add_op("Voltar", "BACK2");
+			add_op("Pegar", "SHOES2");
+			break;
+				case "SHOES2":
+					ds_grid_add_text("Ótimo!", spr_portrait_2, 1, "Jeff");
+					with obj_shoes {
+						picked = true;	
+					}
+					with obj_flipflops {
+						picked = false;	
+					}
+					break;
+		case "hat2":
+			ds_grid_add_text("Meu boné! Vou precisar dele caso faça muito sol.", spr_portrait_2, 0, "Jeff");
+			add_op("Voltar", "BACK2");
+			add_op("Pegar", "HAT2");
+			break;
+				case "HAT2":
+					ds_grid_add_text("Agora sim!", spr_portrait_1, 0, "Jeff");
+					with obj_hat {
+						picked = true;	
+					}
+					break;
+		case "flops2":
+			ds_grid_add_text("Hoje está um ótimo dia! Talvez os chinelos caibam bem?", spr_portrait_2, 1, "Jeff");
+			add_op("Voltar", "BACK2");
+			add_op("Pegar", "FLOPS2");
+			break;
+				case "FLOPS2":
+					ds_grid_add_text("Agora sim!", spr_portrait_1, 1, "Jeff");
+					with obj_flipflops {
+						picked = true;	
+					}
+					with obj_shoes {
+						picked = false;	
+					}
+					break;
+				case "BACK2":
+					ds_grid_add_text("Vou deixar este em casa dessa vez.", spr_portrait_1, 0, "Jeff");
+					break;
 	}
 }
 
